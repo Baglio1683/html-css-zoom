@@ -20,6 +20,59 @@ background-color: black;
 
 }
 
+.Inline{
+
+display: inline-block;
+margin-right: 17px;
+margin-left: 10px;
+text-align: center;
+
+
+}
+
+.arrow{
+
+align-self: flex-end;
+
+}
+
+
+/* Utility  */
+
+.text-red{
+
+color: red;
+
+}
+
+.text-green{
+
+
+color: green;
+;
+
+}
+
+
+
+
+
+
+
+
+.icons-right{
+
+position:fixed; 
+top: 20px;
+right: 0;
+color: white;
+
+  /* DEBUG  
+background-color: blueviolet; */
+
+}
+
+
 .container-card{
 
 display: flex;
@@ -31,20 +84,20 @@ justify-content: space-between;
 align-content: flex-start;
 row-gap: 8px;
 
-/* DEBUG  */
-background-color: orange; 
-
 }
 
 .card {
 
 height: 100px;
-width: calc(100%/7 - 1%);
+width: calc( 100% / 7 - 8px );
 position: relative;
-margin-right: 1%;
+column-gap: 8px;
+background-image: url(https://picsum.photos/200);
+background-size: cover;
+background-position: center;
 
-/* DEBUG */
-background-color: pink;
+/* DEBUG
+background-color: pink; */
 
 }
 
@@ -56,8 +109,63 @@ bottom: 0;
 left: 0;
 
 /* DEBUG */
+/* background-color: blue; */
 
-background-color: blue;
+}
+
+
+.toolbar{
+
+display: flex;
+height: 50px;
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+align-items: center;
+justify-content: space-between;
+color: white;
+
+/* DEBUG 
+background-color: brown; */
+
+}
+
+.left-box{
+
+display: flex;
+justify-content: center;
+align-content: center;
+
+/* DEBUG
+background-color: blueviolet; */
+
+}
+
+.right-box{
+
+display: flex;
+align-items: center;
+justify-content: center;
+ padding-right: 10px;
+ height: 100%;
+ width: 10%;
+ text-align: center;
+    
+
+ /* DEBUG     */
+/* background-color: aquamarine; */
+
+}
+
+.central-box{
+
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+ /* DEBUG */
+/* background-color: violet; */
 
 
 }
