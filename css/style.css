@@ -1,0 +1,19 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+/* Regole Blocchi Principali  */
+
+.container {
+
+width: 100%;
+height: 100vh;
+
+/* DEBUG  */
+background-color: black;
+
+}
