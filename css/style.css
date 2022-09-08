@@ -23,8 +23,7 @@ background-color: black;
 .Inline{
 
 display: inline-block;
-margin-right: 17px;
-margin-left: 10px;
+margin-right: 15px;
 text-align: center;
 
 
@@ -67,10 +66,39 @@ top: 20px;
 right: 0;
 color: white;
 
-  /* DEBUG  
-background-color: blueviolet; */
+}
+
+
+
+.icons-right span {
+
+display: inline-block;   
+background-color: #4A4A4A; 
+margin-right: 10px;
+height: 25px;
+line-height: 25px;
+text-align: center;
+border-radius: 5px;
 
 }
+
+.Speaker{
+
+width: 120px;
+
+}
+
+.Maximize{
+
+width: 30px;
+
+}
+
+
+
+
+
+
 
 
 .container-card{
@@ -96,20 +124,20 @@ background-image: url(https://picsum.photos/200);
 background-size: cover;
 background-position: center;
 
-/* DEBUG
-background-color: pink; */
-
 }
 
 
 .card-text{
 
+height: 19px;
+width: 125px;
+line-height: 19px;
+text-align: center;
+color: white;    
 position: absolute;
 bottom: 0;
 left: 0;
-
-/* DEBUG */
-/* background-color: blue; */
+background-color: #626f7cbe;
 
 }
 
@@ -125,9 +153,7 @@ width: 100%;
 align-items: center;
 justify-content: space-between;
 color: white;
-
-/* DEBUG 
-background-color: brown; */
+background-color: #222222;
 
 }
 
@@ -136,9 +162,6 @@ background-color: brown; */
 display: flex;
 justify-content: center;
 align-content: center;
-
-/* DEBUG
-background-color: blueviolet; */
 
 }
 
@@ -151,10 +174,7 @@ justify-content: center;
  height: 100%;
  width: 10%;
  text-align: center;
-    
-
- /* DEBUG     */
-/* background-color: aquamarine; */
+background-color: #4A4A4A;
 
 }
 
